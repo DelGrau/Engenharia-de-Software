@@ -1,1 +1,48 @@
 ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+Objetivos da Disciplina
+    - Propiciar aos acadêmicos a possibilidade do entendimento de aspectos básicos de sistemas de informação.
+    
+    - Proporcionar o entendimento de aspectos relevantes da engenharia de software de forma que o acadêmico 
+    possa utilizar técnicas para o melhor entendimento e definição do escopo dos sistemas a serem desenvolvidos.
+
+Conteudo Programático:
+    - Introdução aos Sistemas de informação
+    - Conceitos de informação
+    - Conceitos de sistemas
+    - 
+
+    Definição e Conceito das fases do ciclo  de vida do software
+        - Planejamento
+        - Análise e Especificação de Requisitos
+        - Projeto
+        - Implementação
+        - Testes
+        - Entrega e Implantação
+        - Operação
+        - Manutenção
+    
+    Ciclo de Vida Classico do Desenvolvimento de Software
+        - Planejamento Global
+            - Análise
+                - Projeto
+                    - Codificação
+                        - Teste
+                            - Manutenção
+
+    Engenharia de Requisitos:
+        - Requisitos Funcionais e não Funcionais;
+        - Especificação de Requisitos;
+        - Processos de Engenharia de Requisitos;
+        - Elicitação e Análise de Requisitos;
+
+    Técnicas Utilizadas para Coletae Análise dos Requisitos:
+        - Análise de Documentos
+        - Observação
+        - Entrevista
+        - Pesquisa/Questionário
+
+    
