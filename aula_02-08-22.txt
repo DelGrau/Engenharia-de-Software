@@ -45,4 +45,9 @@ Conteudo Programático:
         - Entrevista
         - Pesquisa/Questionário
 
-    
+    Técnicas para Validação e Gerenciamento de Requisitos:
+        - Modelagem de Processos
+        - Modelagem de Casos de Uso
+        - Prototipação
+
+        
