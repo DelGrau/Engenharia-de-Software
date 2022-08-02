@@ -50,4 +50,14 @@ Conteudo Programático:
         - Modelagem de Casos de Uso
         - Prototipação
 
-        
+Leituras Recomendadas
+    SOMMERVILLE, Ian.
+    Engenharia de Software.
+
+    PFLEEGER, Shari Lawrence.
+    Engenharia de Software: Teoria e Pratica.
+
+    VAZQUEZ, Carlos Eduardo.
+    SIMÕES, Guillherme Siqueira.
+    Engenharia de Requisitos de Software Orientado ao Negócio
+
