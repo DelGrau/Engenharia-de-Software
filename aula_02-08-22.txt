@@ -132,3 +132,15 @@ CONCEITOS
     Sistemas de Coleta de Dados:...
 
     Sistemas de Sistemas:...
+
+EXERCÍCIOS --------------------------------------------------------------------------------------------------------------------------------------
+
+    1 - O que compreende o conceito de Software?
+
+    2 - Qual papel é desempenhado pela Engenharia de Software?
+
+    3 - Quais são os quatro atributos mais importantes que todo software profissional deve possuir? Explique com suas palavras cada um deles?
+
+    4 - Que tipo de softwares você já utilizou ou utiliza em su dia-a-dia? Exemplifique.
+
+    5 - Quais são os fundamentos da Engenhariade Software?
