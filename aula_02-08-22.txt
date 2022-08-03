@@ -61,3 +61,74 @@ Leituras Recomendadas
     SIMÕES, Guillherme Siqueira.
     Engenharia de Requisitos de Software Orientado ao Negócio
 
+CONCEITOS
+
+    Sistemas de Informação
+        - Um conjunto de informações relacionadas que coletam, manipulam e disseminam dados e informações e 
+        fornecem realimentação para atingir uma meta;
+
+        -- Negócios
+            - Utilizam Sistemas de Informação para aumentar lucros e diminuir custos.
+
+        -- Informação
+            - Um dos ativos mais valiosos das organizações;
+            - Frequentemente confundida com dados.
+
+        -- Dados VS Informação
+            - Dados: fatos não trabalhados.
+            - Informação: coleção de fatos organizados de tal forma que adquirem valor além dos próprios fatos em si.
+
+    ##--------------------------------------------------------------------------------------------------------------------##
+    ## Os dados brutos de um caixa de Supermercado podem ser processado e organixaods para produzir informações           ##
+    ## significativas, como as vendas totais da unidade de detergente ou a receita total de vendas de detergente para uma ##
+    ## determinada loja ou território de vendas.                                                                          ##
+    ##--------------------------------------------------------------------------------------------------------------------##
+
+    O que é Software?
+        - O Software compreende todo conjunto de programas, procedimentos, dados e documentação associados a um sistema de
+        de computador, e não somente ao programa em si.
+
+    O que é Engenharia de Software?
+        - utilização de ferramentas, técnicas, procedimentos e paradigmas para melhorar a qualidade dos softwares, tem como
+        objetivo utilizar abordagens eficientes e produtivas para gerar soluções efetivas para os problemas.
+
+    Qual a Importância da Engenharia de Software?
+        - Cada vez mais individuos e sociedades dependem dos sistemas de software avançados. Temos de ser capazes de produzir
+        sistemas confiáveis econômica e rapidamente.
+
+        - Geralmente é mais barato, a longo prazo, usar métodos e técnicas da engenharia de software para sistemas de software, 
+        em vez de escrever os programas...
+
+    Processo de Software
+
+        É uma sequencia de atividades que leva à produção de um Produto de Software. Existem quatro atividades fundamentais comuns
+        a todos os processis de software.
+
+        - Especificação de Software: em que clientes e engenheiros definem o software a ser produzido e as restriões de sua operação.
+
+        - Desenvolvimento de Software: em que o software é projetado e programado.
+
+        - Validação de Software: em que o software é verificado para garantir que é o que o cliente quer.
+
+        - Evolução de Software: em que é modificado para refletir a mudança de Requisitos do cliente e so mercado.
+
+    Lembre-se: não existe uma técnica e um método universal na engenhariade software adequada para todas as empresas
+    e todos os sistemas. Em vez disso, um conjunto diverso de métodos e ferramentas de engenharia de software tem evoluido
+    nos ultimos 50 anos.
+    Talvez o fator mais significante em determinar quais técnicas e métodos de engenhariade software são mais importantes...
+
+    Aplicações Stand-alone:...
+
+    Aplicações Interativas Baseadas em Transações:...
+
+    Sistemas de Controle Embutidos:...
+
+    Sistemas de Processamento de Lotes:...
+
+    Sistemas de Entretenimento:...
+
+    Sistemas para Modelagem e Simulação:...
+
+    Sistemas de Coleta de Dados:...
+
+    Sistemas de Sistemas:...
