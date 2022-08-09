@@ -1,0 +1,43 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+Códigos de ética e práticas profissionais da Engenharia de Software
+    1 - PÚBLICO: Eng. de Software devem agir de acordi com o interesse público;
+    2 - CLIENTE E EMPREGADOR: Eng. de Software devem agir de maneira que seja do melhor interesse de seu cliente e empregador e de acordo 
+    com o interesse público;
+    3 - PRODUTO: Eng. de Software devem garantir que seus produtos e modificações relacionadasatendam aos mais altos padrões profissionais 
+    possiveis;
+    4 - JULGAMENTO: Eng. de Software devem manter a integridade e a independência em seu julgamento profissional;
+    5 - GERENCIAMENTO: Gerentes e líderes de engenharia de software devem aceitar e promover uma abordagem ética para o gerenciamento de 
+    desenvolvimento e manutenção de software;
+    6 - PROFISSÃO: Eng. de Software devem aprimorar a integridade e a reputação da profissão de acordo com o interesse público;
+    7 - COLEGAS: Eng. de Software devem auxiliar e ser jusos com seus colegas;
+    8 - SI PRORPRIO: Eng. de Software devem participar da aprendizagem contínua durante toda a vida, e devem promover uma abordagem ética 
+    e pratica da profissão.
+
+        ACM/IEEE (c IEEE/ACM 1999)
+
+Estudo de Caso
+    1 - Um sistema embutido
+        Trata-se de um sistema no qual o software controla um dispositico de hardware e é embutido neste dispositivo. As questões em sis-
+        temas embutidos incluem tipicamente o tamanho físico, a capacidade de resposta, o gerenciamento de energia, etc. O exemplo de um 
+        sistema embutido que uso é um sistema para controlar um dispositivo médico.
+
+#   Microsoft Visio     #
+#   astah               #
+
+Processos de Software
+    Quatro atividades fundamentais para a Eng. de Software
+        1 - ESPECIFICAÇÃO: A funcionalidade do software e as restrições a seu funcionamento devem ser definidas;
+        2 - PROJETO E IMPLEMENTAÇÃO: O software deve ser produzido para atender as especificações;
+        3 - VALIDAÇÃO: O software deve ser validado para garantir que atenda as demandas do cliente;
+        4 - EVOLUÇÃO: O software deve evoluir para atender as necessidades de mudança dos clientes.
+
+    Modelos de Processo de software
+        - Modelo em Cascata
+        - Desenvolvimento Incremental
+        - Engenharia de Software orientada a reúso
+
+        
