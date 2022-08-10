@@ -37,7 +37,60 @@ Processos de Software
 
     Modelos de Processo de software
         - Modelo em Cascata
-        - Desenvolvimento Incremental
-        - Engenharia de Software orientada a reúso
+            É um exemplo de um processo dirigido a planos - em princípio, você deve planejar e programar todas as atividades do processo 
+            antes de começar a trabalhar nelas.
 
+                1 - Analise e defiição de requisitos: Os serviços, restrições e metas do sistema são estabelecidos por meio de consulta aos
+                usuários.
+                2 - Projeto de sistema e software: Esse processo aloca os requisitos tanto para sistemas de hardware como para sistemas de 
+                software, por meio da definição de uma arquitetura geral do sistema.
+                3 - Implementação e teste unitário: Durante esse estagio, o projeto do ...
+                4 - Integração e teste de sistema: As unidades individuais do programa ou programas são integradas e testadas como um sistema 
+                completo...
+                5 - Operação e manutenção: O sistema é instalado e colocado em uso. A manutenção envolve a correção de erros que não foram ...
+
+        - Desenvolvimento Incremental
+            Baseado na ideia de desenvolver uma implementação inicial, expô-la aos comentários dos usuários e continuar por meio da criação
+            de várias versões até que um sistema adequado seja desenvolvido. Atividades de especificação, desenvlvimento e validação são 
+            intercaladas...
+
+                Vantagens
+                    1 - o custo de acomodar as mudanças nos requisitos do cliente é reduzido.
+                    2 - é mais facil obter o feedback dos clientes.
+               
+                Problemas
+                    1 - o processo não é visivel.
+                    2 - a estrutura do sistema tende a se degradar com a adição dos novos incrementos.
+
+        - Engenharia de Software orientada a reúso
+            Abordagens orientadas a reuso dependem de uma ampla base de componentes reusáveis ...
+
+Atividades do processo
+    Especificação de software
+        1 - Estudo de viabilidade
+        2 - Elicitação e análise de requisitos
+        3 - Especificação de requisitos
+        4 - A validação de requisitos
+
+    Projeto e implementação de software
+        É o processo de conversão de uma especificação do sistema em um sistema executável.
+
+    Validação de software
+        Tem a intenção de mostrar que um software se adequa a suas especificações ao mesmo tempo que stisfaz as especificações do cliente.
+
+    Evolução do software
+        Mudanças de requisitos e às necessidades do cliente.
+
+    Prototipação 
+        - Uma versão inicial de um sistema
+        - Demonstra conceitos
+        - Experimentas opções
+        - Descobrir mais sobre o problema e suas possíveis soluções
+
+    RUP - Rational Unified Process
+        é um exemplo de modelo de processo moderno
+
+        1 - Dinâmico
+        2 - Estatico
+        3 - Pratico    
         
