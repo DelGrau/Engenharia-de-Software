@@ -1,0 +1,48 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+    Metodologia Ágil
+        [...]
+
+    Manifesto Ágil
+        "Estamos descobrindo melhores maneiras de desenvolver softwares, fazendo-o e ajudando outris a fazê-lo. Através desse trabalho, 
+        valorizamos mais:
+            Individuos e interações do que prodessos e ferramentas
+            Softwares em funcionamento do que documentação abrangente
+            Colaboração do cliente do que negociação de contrato
+            Respostas a mudanças do que seguir um plano
+
+        Ou seja, embora itens a direita sejam importantes, valorizamos mais os que estão a esquerda."
+
+        Extreme Programming
+            Método ágil mais coneciso
+
+        Abordagens Ágeis
+            Scrum
+            [...]
+
+            Embora esses métodos sejam ageis todos baseados na noção de desenvolvimento e entrega incremental [...]
+
+        São bem sucedidos em:
+            1 - Desenvolvimento de produtos. (Produto pequeno e médio para a venda)
+            2 - Desenvolvimento personalizado dentro da organização, onde existe um objetivo claro do cliente dentro do processo de 
+            desenvolvimento e não há muitas regras, regulamentos que afetam o software.
+
+    Desenvolvimento ágil e dirigido a planos
+        Identifica estágios distintos do processo de software com saídas associadas a cada estagio. As saídas de um estágio são usadas 
+        como base para o [...]
+
+    
+EXTREME PROGRAMMING (XP)
+    É um dos métodos ágeis mais conhecidos e utilizados, tem por finalidade impulsionar praticas reconhecidamente boas, comoo desenvolvimento 
+    iterativo, a niveis 'extremos'. Por exemplo, em XP, várias  novas versões de us sistema podem ser desenvolvidas, integradase testadas em um 
+    unico dia por programamdores diferentes.
+
+    Os requisitos testados são expressos como cenários (chamados de estorias do usuario), que são implementados diretamente como uma série
+    de tarefas. Os programadores trabalham em pares e desenvolvem testes para cada tarefa antes de escreverem o codigo. Quando o novo codigo
+    é integrado ao sistema, todos os testes devem ser executados com sucesso. Há um curto intervalo entre os releases do sistema.
+
+    <img src=".\Engenharia-de-Software\Tabela3-2"></img>
+
