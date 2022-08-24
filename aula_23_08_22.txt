@@ -54,3 +54,5 @@ Eng. de Requisitos
                     RF1.2: O sistema deve verificar se o aluno já está cadastrado no sistema, se positivo, somente "atualizar" as informações (dados)
                     RF1.3: Alocar o aluno a um curso
                     RF1.4: Gerar confirmação de atualização ou cadastro do aluno.
+                
+                Definir RF2
