@@ -1,7 +1,7 @@
-<h1>ENGENHARIA DE SOFTWARE</h1>
+<h1> ENGENHARIA DE SOFTWARE </h1>
 
-<h3>Profª Maria Joseane</h3>
-<h3>Email: mariajoseane@prof.unipar.br</h3>
+<h3>Profª Maria Joseane<br>
+Email: mariajoseane@prof.unipar.br</h3>
 
 <h2>AULAS</h2>
 
