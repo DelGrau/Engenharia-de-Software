@@ -1,0 +1,56 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+Segundo Fritz Bauer na Primeira Conferência [NAN69] a Definição de Engenharia de Software:
+    "O estabelecimento e uso de sólidos princípios de engenharia para que se possa obter economicamente um software que seja confiavel e que
+    funcione eficientemente em máquinas reais."
+
+Engenharia de Software é um "Descendente" da Engenharia de Sistemas e Engenharia de Hardware.
+    Ela Abrange um Conjunto de Três Elementos Fundamentais:
+        Métodos - Ferramentas - Procedimentos
+
+    Métodos definem "Como Fazer" para construir o software. Envolvem um conjunto de tarefas que incluem:
+         Planejamento e estimativa de projeto, análise de requisiros, projeto de estrutura de dados, arquitetura do programa, algoritmo, 
+         codificação, teste e manutenção.
+
+    Ciclo de Vida Clássico (Modelo Cascata)
+        Eng. de Sistemas > Análise > Projeto > codificação > Teste > Manutenção ( > Eng. de Sistemas)
+
+Eng. de Requisitos
+    Os requisitos de um sistema são as descrições do que o sistema deve fazer, os serviços que ele oferede, e as restrições ao seu 
+    funcionamento.
+    Eles refletem a necessidade dos clientes pra um sistema que atende/serve a uma finalidade determinada.
+    Divide-se em requisitos funcionais e não funcionais.
+        Requisitos Funcionais: são declarações de serviços que o sistema vai ofereecer, como o sistema deve reagir a entradas específicas e 
+        de como o sistema de se comportar em determinadas situações.
+        Requisitos não Funcionais: São restrições aos serviços ou funções oferecidos pelo sistema, como tempo de resposta, como confiabilidade
+        e ocupação de área.
+
+        Exemplo: Biblioteca
+            RF1: Cadastrar Livro
+                O sistema deve permitir ao usuário "admin" cadastrar um livro, com nome do livro, nome do autor, edição. número do exemplar,
+                quantidade, se pode ou não ser tomado em empréstimo.
+
+                RF1.1: Deve mostrar imagem do Livro para comferência.
+
+            RNF1: O cadastro não deve ultrapassar 5 minutos.
+
+        Exemplo: Universidade
+            RF1: Cadastrar Alunos
+            RF2: Cadastrar Professores/Funcionários
+            RF3: Consultar Alunos
+            RF4: Consultar Professores/Funcionários
+            RF5: Cadastrar Curso
+            RF6: Cadastrar Turma
+            RF7: Consultar Aluno por Curso
+            RF8: Consultar Professor por Curso
+
+                RF1: Cadastrar Aluno
+                    O sistema deve permitir ao usuário "secretaria" inserir os dados de um aluno.
+
+                    RF1.1: Dados do Aluno: CPF, RG, nome completo, endereço, email, telefone.
+                    RF1.2: O sistema deve verificar se o aluno já está cadastrado no sistema, se positivo, somente "atualizar" as informações (dados)
+                    RF1.3: Alocar o aluno a um curso
+                    RF1.4: Gerar confirmação de atualização ou cadastro do aluno.
