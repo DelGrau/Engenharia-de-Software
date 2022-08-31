@@ -1,0 +1,9 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+2 - Reescreva a descrição anterior usando a abordagem estruturada. Resolva, de um modo apropriado, as ambiguidades identificadas.
+
+3 - Escreva um conjunto de requisitos não funcionais para o sistema de emissão de bilhetes, definindo sua confiabilidade e tempo de resposta esperados.
+
