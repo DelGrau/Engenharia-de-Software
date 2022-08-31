@@ -55,4 +55,10 @@ Eng. de Requisitos
                     RF1.3: Alocar o aluno a um curso
                     RF1.4: Gerar confirmação de atualização ou cadastro do aluno.
                 
-                Definir RF2
+                RF2: Cadastrar Professores/Funcionários
+                    O sistema deve permitir ao usuário "secretaria" inserir os dados de um professor/funcionário.
+
+                    RF2.1: Dados do Funcionários: CPF, RG, nome completo, endereço, email, telefone.
+                    RF2.2: O sistema deve verificar se o funcionário já está cadastrado, caso sim, atualizar com os dados atuais.
+                    RF2.3: Alocar o Funcionário a uma Função (Professor, Secretária...).
+                    RF2.4: Gerar uma confirmação do cadastro ou atualização do funcionário.
