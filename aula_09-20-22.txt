@@ -1,0 +1,51 @@
+ENGENHARIA DE SOFTWARE
+
+20/09/2022
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+MODELAGEM DE SISTEMAS
+    # Diagramas de Atividades: que mostram as atividade envolvidas em um processo ou no processamento do dados.
+    # Diagramas de Casos de Uso: que mostram as interações entre um sistema e seu ambiente.
+    # Diagramas de Sequencia: que mostram as interações entre os atores e o sistema, e entre os componentes do sistema.
+    # Diagramas de Classe: que mostram as classes de objeto no sistena e as associações entre elas.
+    # Diagramas de Estado: que mostram como o sistema reage aos eventos internos e externos.
+
+    Casos de Uso
+        # BIBLIOTECÁRIA // Usuario master, todos herdam as funções dele 
+            -> Incluir Livro 
+            -> Comprar Livro 
+            -> Emprestar Livro 
+            -> Devolver Livro 
+            -> Consultar Livro 
+
+            -> # ATENDENTE // Usuario padrão, herda algumas funções mas não outras
+                -> Emprestar Livro 
+                -> Devolver Livro 
+                -> Consultar Livro 
+
+                -> # LEITOR // Usuário mortal, herda apenas funções pré determinadas 
+                    -> Consultar Livro 
+
+        # CASO DE USO 
+            - Emprestar Livro 
+        
+        # VISÃO GERAL 
+            A atendente da biblioteca realiza o emprestimo de um ou mais livros a um leitor apto a emprestar livros. O emprestimo é
+            valido por um determinado periodo de tempo, de acordo com o timpo de leitor. Os livros são levados pelo leitor, depois
+            de devidamente desmagnetizados e marcados como emprestados.
+
+    @ Exercício
+        1. Fazer um caso de uso para Devolver um Livro 
+
+        1 - {
+            # CASO DE USO 
+                - Devolver Livro 
+
+            # VISÃO GERAL 
+                A atendente recebe um ou mais livros emprestados anteriormente ao leitor. O(s) livro(s) é(são) consultado no sistema, 
+                e a tag de 'Emprestado' é removida. O emprestimo é fechado no cadastro do leitor e a quantidade de livros emprestados 
+                ao mesmo é diminuida. O sistema confere se o livro foi devolvido dentro do prazo, caso seja verdade, a função é en-
+                cerrada, senão, uma mensagem com o calculo da multa e um aviso de livro devolvido em atraso é mostrada para a aten-
+                dente.   
+        }
