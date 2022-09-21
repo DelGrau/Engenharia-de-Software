@@ -86,3 +86,5 @@ MODELAGEM DE SISTEMAS
                 RN6: Os livros emprestados não podem retornar danificados, com multa de descumprimento sendo o valor do livro 
         }
 
+
+
