@@ -37,6 +37,7 @@ MODELAGEM DE SISTEMAS
 
     @ Exercício
         1. Fazer um caso de uso para Devolver um Livro 
+        2. Expansão dos Casos de Uso
 
         1 - {
             # CASO DE USO 
@@ -49,3 +50,39 @@ MODELAGEM DE SISTEMAS
                 cerrada, senão, uma mensagem com o calculo da multa e um aviso de livro devolvido em atraso é mostrada para a aten-
                 dente.   
         }
+
+        2 - {
+            # FLUXO PRINCIPAL
+                1 | A atendente entra com a especificação do exemplar e do usuário 
+                2 | O sistema da baixa do emprestimo, e inclui o livro de volta no estoque
+                3 | O sistema cria um novo código magnético para o livro 
+                4 | O sistema confere se o emprestimo foi encerrado vencido ou não (RN5)[A1][A2]
+                5 | O sistema registra no histórico do usuário a devolução do livro 
+                6 | O caso de uso é encerrado
+
+            # FLUXO ALTERNATIVO 
+                A1 | O emprestimo está vencido
+                    a - O sistema verifica quantos dias se passaram desde o vencimento 
+                    b - O sistema calcula a multa baseado no passo anterior e retorna uma mensagem com o valor da multa 
+                    
+                A2 | O usuário recebe uma multa 
+                    a - Um título a receber é criado no cadastro do usuário 
+                    b - O fluxo alternativo é encerrado
+
+                A3 | O usuário paga a multa
+                    a - O título a receber é baixado e um recibo é impresso contendo os dados do pagamento.
+                    b - O fluxo alternativo é encerrado   
+
+                A4 | O livro está danificado
+                    a - A atendente detecta que o livro retornou danificado 
+                    b - O usuário recebe uma multa (RN6)[A2]
+
+            # REGRAS DE NEGOCIO 
+                RN1: O usuário não pode ter mais de duas reservas em aberto em seu nome
+                RN2: O prazo máximo para a retirada do livro é de dois dias
+                RN3: Um usuário pode ter no máximo três exemplares em seu poder em um determinado instante de tempo 
+                RN4: A multa a ser aplicada é de R$2,00 por dia útil de atraso.
+                RN5: O periodo máximo de emprestimo de um volume é de 10 dias uteis, podendo ser prolongado por mais 5 dias 
+                RN6: Os livros emprestados não podem retornar danificados, com multa de descumprimento sendo o valor do livro 
+        }
+
