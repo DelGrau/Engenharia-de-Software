@@ -11,13 +11,26 @@ Email: mariajoseane@prof.unipar.br
         Requisitos Funcionais:
             > RF1: O sistema deve iniciar um atendimento conforme a ativação por parte do usuário;
             > RF2: O sistema deve apresentar uma lista de destinos disponíveis;
-            > RF3: Após a seleção do destino, o sistema deve solicitar a inserção dos dados do cartão de credito/débito do usuário;
-            > RF4: Após a inserção do cartão, a transação deve ser validada e a Passagem emitida.
+            > RF3: O usuário deve selecionar um destino;
+            > RF4: O sistema deve solicitar a inserção do cartão de credito;
+            > RF5: A transação deve ser validada;
+            > RF6: O sistema deve emitir o Bilhete.
 
         Requisitos Não Funcionais: 
             > RNF1: Os destinos disponíveis devem ser organizados de forma que facilite a seleção;
             > RNF2: Após a seleção do destino o sistema deve informar se há espaço disponível no trem;
             > RNF3: Após a inserção do cartão do cliente, o sistema deve validar os dados do cartão antes de prosseguir;
+            > RNF4: O formato do Bilhete de Passagem deve seguir o padrão definido pelo Sistema Nacional de Tráfego Ferroviário (SNTF).
 
         Regras de Negócio:
-            > RN1: O formato do Bilhete de Passagem deve seguir o padrão definido pelo Sistema Nacional de Tráfego Ferroviário (SNTF).
+            > RN1: A única forma de Pagamento aceita é por cartão de credito.
+
+    -> Verificar e resolver as ambiguidades, reescrevendo a situação proposta
+    
+        Situação Proposta:
+            "Um sistema de auto atendimento para emissão de passagens que vende passagens de trem. O sistema aguarda a ativação por parte do
+            usuário para apresentar uma lista de possíveis destinos. Os destinos são organizados de forma que facilite a visualização e es-
+            colha por parte do usuário. Após a escolha do destino, o sistema emite uma resposta dizendo se há vagas disponíveis no trem. Uma 
+            vez que o destino foi escolhido e confirmado, uma tela para a inserção dos dados do cartão de credito do usuário é aberta. Após 
+            a inserção e velidação dos dados do cartão, a transação é efetuada e a passagem é emitida. A passagem segue os formato padrão 
+            definido pelo Sistema Nacional de Tráfego Ferroviário (SNTF).
