@@ -1,0 +1,23 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+04/10/2022
+
+# EXERCÍCIOS DE FIXAÇÃO #
+    -> Levantar os Requisitos Funcionais, os Requisitos Não Funcionais e as Regras de Negócio da situação proposta em Sala
+
+        Requisitos Funcionais:
+            > RF1: O sistema deve iniciar um atendimento conforme a ativação por parte do usuário;
+            > RF2: O sistema deve apresentar uma lista de destinos disponíveis;
+            > RF3: Após a seleção do destino, o sistema deve solicitar a inserção dos dados do cartão de credito/débito do usuário;
+            > RF4: Após a inserção do cartão, a transação deve ser validada e a Passagem emitida.
+
+        Requisitos Não Funcionais: 
+            > RNF1: Os destinos disponíveis devem ser organizados de forma que facilite a seleção;
+            > RNF2: Após a seleção do destino o sistema deve informar se há espaço disponível no trem;
+            > RNF3: Após a inserção do cartão do cliente, o sistema deve validar os dados do cartão antes de prosseguir;
+
+        Regras de Negócio:
+            > RN1: O formato do Bilhete de Passagem deve seguir o padrão definido pelo Sistema Nacional de Tráfego Ferroviário (SNTF).
