@@ -1,0 +1,37 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+É um conjunto de passos importantes que descreve um cenário principal 
+
+Elemento
+    Ator
+        Representa uma pessoa (ou grupo de pessoas) que desenpenham um papael ao interagir com o software. Pode ser qualquer 
+        "coisa" que interaja com o software com a finalidade de cumprir um trabalho significativo.
+
+    Caso de Uso
+        Representa uma funcionalidade que atende um ou mais requisitos do cliente.
+
+    Relacionamento
+        Um ator interage com um caso de uso e isso é representado por um relacionamento.
+
+        Ator Ativo > Aquele que inicia a execução de um caso de uso.
+        Ator Passivo > Não é iniciado pelo ator, mas reage a um gatilho do sistema.
+
+    Generalização ou Especialização
+        O caso de uso Generalizado contempla um comportamento comum abstarido de outros casos de uso, e permite que os 'filhos'
+        herdem o comportamento comum e tenham um comportamento especifico
+
+    Extenção
+        É chamado em alguns casos de um caso de uso por outro, é opcional.
+
+    Inclusão
+        É a continuação obrigatória de um caso de uso em outro caso de uso.
+
+--> O diagrama de caso de uso é entregue ao cliente para validação e complementar um possivel requisito faltando.
+
+--> Fluxo Principal: é o caminho perfeito do caso de uso, sem nenhum problema.
+--> Fluxo Alternativo: é o caminho caso haja algum problema.
+
+ASTAH
