@@ -1,0 +1,7 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+Especificação de Casos de Uso - Aluguel de Bicicletas
+    
