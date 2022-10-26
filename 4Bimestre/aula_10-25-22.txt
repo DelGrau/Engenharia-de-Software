@@ -4,4 +4,22 @@ Profª Maria Joseane
 Email: mariajoseane@prof.unipar.br
 
 Especificação de Casos de Uso - Aluguel de Bicicletas
-    
+    Caso de uso: Alugar Bicicleta
+        Objetivo: Possibilita que um Ciclista alugue uma bicicleta;
+        Ator: Ciclista
+        Pré-Condições: O Ciclista deve estar logado no App, a bicicleta e o perimetro devem estar cadastrados no sistema;
+        Condições de Entrada: Opção Alugar Bicicleta foi selecionada;
+
+        Fluxo Principal:
+            1 > O Ciclista escaneia o QR-Code da bicicleta;
+            2 > O sistema deve verificar se o ciclista tem creditos; (A1)
+            3 > O sistema reduz os créditos do Ciclista;
+            4 > O cadeado da bicicleta é destravado;
+            5 > Fim do Caso de Uso;
+
+        Fluxo Alternativo:
+            A1: O Ciclista não tem créditos:
+                a. O sistema mostra na tela uma mensagem dizendo que o Ciclista não possui creditos suficientes;
+                b. O sistema dá a opção de comprar a quantidade de créditos que falta;
+                c. O ciclista compra os créditos;
+                d. O sistema refaz o Passo 2;
