@@ -1,0 +1,157 @@
+ENGENHARIA DE SOFTWARE
+
+Profª Maria Joseane
+Email: mariajoseane@prof.unipar.br
+
+DIAGRAMA DE CLASSES
+    Mostrar as Classes do sistema e as associações entre elas
+
+    Composto poe nome da classe, atributos e métodos
+
+    #=================#
+    |  NomeDaCLasse   |
+    ===================
+    | - atributo      |
+    ===================
+    | + métoDaClasse()|
+    #=================#
+
+    Dependencia
+
+        - Representa a relação de depenfencia entre dois objetos, ou seja, para que um funcione corretamente precisa do outro.
+        - No diagrama, sua sintaxe é uma linha pontilhada que liga as duas classes.
+
+    Associação
+
+        - Representa a relação existente entre objetod. No diagrama, sua sintaxe é uma linha que liga as duas ...
+        
+    Agregção
+
+        - Representa uma relação todo-parte entre o agregafo e suas partes.  A PErda do todo não resulta necessáriamente na perda da parte.
+        - Sua sintaxe é uma linha com um losanglo branco que representa o todo.
+
+    Composição
+
+        - Representa uma relação todo-parte entre o agregado e a parte. porém a composição representa um forte relacionamento, em que as partes não sobrevivem sem o todo.
+        - Sua sintaxe é a de uma linha com um losango preto na classe que corresponde ao todo.
+        ex: A venda não existe sem o produto.
+
+    Genralização/Especialização
+
+        - Representa a relação existente entre classes. Este relacionamento também é conhecido na POO como Herança. É quando existe a necessidade de criar uma classe que herda caracteristicas de uma classe pai.
+
+    Boas Praticas
+
+        - O Nome da classe deve ser significativo, descrevendo um aspecto real do sistema;
+        - Os relacionamentos entre os elementos devem ser identificados antes de criar o programa;
+        - Especificar os atributos e operações de cada classe.
+
+    
+EXERCÍCIO: HORÁRIO DE REMÉDIOS
+
+    # Cenário:
+
+        - As informações a seguir se referem a uma aplicação de controle pessoal de horário de remédios.
+
+        - Para cada remédio cadastra-se: o nome de quem vai tomar o remédio, a data de início, a quantidade de dias que foi
+        prescrita pelo médico, a quantidade de vezes ao dia, a dosagem e o nome do remédio. Ao cadastrar o remédio, a
+        aplicação sugere todos os horários possíveis para tomar o remédio.
+
+        - O usuário escolhe o melhor horário e a aplicação avisa até quando o remédio deve ser tomado e prepara uma planilha de 
+        horários. O usuário, no início do dia, seleciona a opção de planilha de horários de remédios do dia.
+
+        - No caso de Maurício atrasar o horário de tomar o remédio num determinado dia, a planilha reorganiza os horários daquele dia.
+
+        - Identifique as classes, atributos e métodos desse cenário
+
+    # ======================================================= #
+
+        Classes:
+            - Remédio;
+            - Planilha de Horários;
+
+        Atributos:
+            # Remédio:
+                - Nome de quem vai tomar o remédio;
+                - Data de inicio;
+                - Quantidade de dias prescritos;
+                - Quantidade de vezes ao dia;
+                - Dosagem; 
+                - Nome do Remédio.
+
+            # Planilha de Horários:
+                - Horário Escolhido pelo Usuário;
+                - Horários do dia;
+                - Remédios do dia;
+
+        Métodos:
+            # Remédio:
+                - cadastrar();
+                - horariosParaTomar();
+
+            # Planilha de Horários:
+                - escolherHorário();
+                - prepararPlanilha();
+                - reorganizarPlanilha();
+
+    # ======================================================= #
+
+EXERCÍCIO: COMANDA ELETRÔNICA
+
+    # Cenário
+
+        - As informações a seguir se referem a uma aplicação de controle de comanda eletrônica da padaria Doce Sabor do Seu Joaquim. 
+        O cliente usa uma comanda eletrônica durante suas compras na Padaria. A cada produto consumido, o atendente registra em sua 
+        comanda (que possui uma numeração) o produto e a quantidade. Ao passar no caixa na saída da Padaria, a Caixa lê os gastos da
+        comanda, finalizando a compra.
+
+        - Na leitura da comanda, verifica-se o valor unitário de cada produto a fim de calcular o valor total da compra.
+
+        - Identifique as classes, atributos e métodos desse cenário
+
+    # ======================================================= #
+
+        Classes:
+            - Comanda;
+            - Produto;
+
+        Atributos:
+            # Comanda:
+                - Numeração;
+                - Produto Consumido;
+
+            # Produto:
+                - Quantidade;
+                - Valor;
+
+        Métodos:
+            # Comanda:
+                - registrarProdutoConsumido();
+                - finalizarCompras();
+
+    # ======================================================= #
+
+EXERCÍCIO: ATIVIDADES PARA AS FILHAS
+
+    # Cenário:
+
+        - Mariana prepara diversos exercícios para suas filhas que estão na primeira e na segunda séries. Ela gostaria de informatizar
+        esses exercícios, para gerar testes aleatórios. Cada teste gerado deve ser guardado (acompanhado de suas questões), com a
+        indicação de sua data de geração. Na geração de um teste, é preciso informar o número de questões desejadas e a qual disciplina 
+        pertence o teste. Para cada disciplina, cadastra-se: uma lista de questões objetivas, identificando de que bimestre é cada 
+        questão e a que matéria pertence.
+
+        - O gabarito também é cadastrado a fim de facilitar a correção do teste. Cada matéria faz parte de uma única disciplina. A 
+        série está ligada à matéria.
+
+        - Por exemplo: para a disciplina de matemática, Mariana prepara um teste com 20 questões. Cada questão corresponde a um bimestre
+        (1°, 2°. 3° ou 4°) e a uma matéria (ex: adição, divisão, números pares e impares, números primos, sinônimos etc). Cada matéria 
+        corresponde a uma disciplina (adição - matemática; sinônimos - português etc).
+
+        A) Desenhe o diagrama de casos de uso.
+
+        B) Desenhe o diagrama de classes.
+
+    # ======================================================= #
+
+    
